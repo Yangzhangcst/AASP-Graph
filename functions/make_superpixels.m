@@ -6,7 +6,7 @@ function [seg,L,seg_vals,seg_lab_vals,seg_edges,seg_img] = make_superpixels(img_
 img = imread(img_loc);
 [X,Y,Z] = size(img);
 lab_img = colorspace('Lab<-', img);
-lab_vals = reshape(lab_img, X*Y, Z);%��ÿһ���ռ���������
+lab_vals = reshape(lab_img, X*Y, Z);
 
 %%% do segmentation
 for k = 1:para_ms.K
