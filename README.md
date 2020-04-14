@@ -21,7 +21,7 @@ Run the demo `demo_AASP_BSDS300.m`.
 The detailed results can be found in `BSDS300_evaluation.txt`.
 
 
-#
+#### Citing
 If you find this repository useful in your research, please consider citing:
 
 @INPROCEEDINGS{AASP-Graph,
