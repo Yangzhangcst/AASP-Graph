@@ -25,18 +25,11 @@ The detailed results can be found in `BSDS300_evaluation.txt`.
 If you find this repository useful in your research, please consider citing:
 
 @INPROCEEDINGS{AASP-Graph,
-
   author={Y. {Zhang} and H. {Zhang} and Y. {Guo} and K. {Lin} and J. {He}},
-  
   booktitle={2019 IEEE International Conference on Multimedia and Expo (ICME)}, 
-  
   title={An Adaptive Affinity Graph with Subspace Pursuit for Natural Image Segmentation}, 
-  
-  year={2019},
-  
-  pages={802-807},
-  
-}
+  year={2019}，
+  pages={802-807},}
 
 
 
