@@ -60,7 +60,6 @@ for m=1:length(global_graph_mode)
             Center = clusteringcenter(tmp1',labels(idxI,k));
             index_tmp = litekmeans(tmp1,labels(idxI,k),'Start',Center');
             
-            supixel_index = seg{k};
             centroid = temp(:,2:3);
             Area = temp(:,1);
             
