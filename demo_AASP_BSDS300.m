@@ -65,8 +65,8 @@ for m=1:length(global_graph_mode)
             Area = temp(:,1);
             
             % superpixel division 
-            large_nodes  = find(index_tmp == mode(index_tmp));
-            small_nodes = find(index_tmp ~= mode(index_tmp));
+            large = find(index_tmp == mode(index_tmp));
+            small = find(index_tmp ~= mode(index_tmp));
             W_f = zeros(length(Area),length(Area));
             %you could change the feature descriptor here
             for n = 1:length(features_mode)
@@ -92,7 +92,7 @@ for m=1:length(global_graph_mode)
                 W = W_local;
 
                 % randomly generate supperpxiels
-                p = randperm(length(small_nodes));
+                p = randperm(length(small));
                 W_L0 = L0GRAPH(feature,para.L,centroid,Area);
                 W = assignGraphValue(W,W_L0,p);
                 W_f = W_f + W*weight(n);
