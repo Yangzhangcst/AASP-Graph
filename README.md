@@ -18,7 +18,7 @@ Run the demo `demo_AASP_BSDS300.m`.
 
 
 ### Results
-The detailed results can be found in `BSDS300_evaluation.txt`.
+The detailed results can be found in `BSDS300_evaluation.txt`. More relevant results of natural image segmentation can be found in our [projects](https://github.com/Yangzhangcst/Natural-color-image-segmentation).
 
 
 ### Citing
